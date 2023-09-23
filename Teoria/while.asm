@@ -18,4 +18,4 @@ lw $t0, 0($t1) #carrega a posição i do vetor para $t0
 bne $t0, $s5, exit # faz  a comparação com o valor de k
 add $s3, $s3, $s4 # incrementa offset
 j loop
-exit: 
+exit:
